@@ -84,7 +84,7 @@ void Dijkstra(int cost[MAX][MAX], int n, int start, int destination)
 
 // Printing the shortest path
     printf("Shortest distance from source to destination: %d\n", distance[destination]);
-    printf("Shortest path: %d ", destination);
+    printf("Shortest path: %d ", start);
     int path = destination;
     int ShortestPath[MAX];
     int pathlength=0;
